@@ -93,8 +93,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://www.google.com/imgres?q=theatrical%20lighting&imgurl=https%3A%2F%2Fwww.portlighting.com%2Fhs-fs%2Fhubfs%2FPortLightingSystems_March2022%2Fimages%2FPort%2BLighting%2BSystems%2BTheatrical%2BLighting%2BDesign%2Band%2BInstallation-1.jpg%3Fwidth%3D2500%26height%3D1875%26name%3DPort%2BLighting%2BSystems%2BTheatrical%2BLighting%2BDesign%2Band%2BInstallation-1.jpg&imgrefurl=https%3A%2F%2Fwww.portlighting.com%2Ftheatrical-stage-lighting&docid=LMDEp2uwNHy2qM&tbnid=U37OHK_5VOxndM&vet=12ahUKEwiezfe9_OeQAxV8q4kEHfqNLxsQM3oECBoQAA..i&w=2500&h=1875&hcb=2&ved=2ahUKEwiezfe9_OeQAxV8q4kEHfqNLxsQM3oECBoQAA')
-
+        st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fbetopperdj.com%2Fblogs%2Fnews%2Ftypes-of-theater-lights-the-role-in-stage-lighting&psig=AOvVaw2GGyW3bC0_RjEkDQCIyCUq&ust=1762877474718000&source=images&cd=vfe&opi=89978449&ved=0CBkQjhxqFwoTCKDIzd3855ADFQAAAAAdAAAAABAK')
     with col2:
         st.subheader('🔦 Thearical lighting Course 101')
         st.write('The basics of lighting from Tik Tok videos to the theater')
