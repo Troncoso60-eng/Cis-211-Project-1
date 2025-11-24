@@ -24,8 +24,8 @@ page = st.sidebar.radio('Go to',
 
 # Home Page
 if page == '🏠 Home':
-  st.markdown('<p class="main-header">Avinash Jairam</p>', unsafe_allow_html=True)
-  st.markdown('<p class="sub-header">Aspiring Tech Professional | Medgar Evers College</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Nicolas Troncoso</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">Future Invester | CEO</p>', unsafe_allow_html=True)
 
   # Three Columns for stats
   col1, col2, col3 = st.columns(3)
@@ -55,7 +55,7 @@ if page == '🏠 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
+    st.image()
 
 # About Page
 elif page == '🧐 About':
