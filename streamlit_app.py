@@ -194,8 +194,6 @@ elif page == '📩 Contact':
 
         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://instagram.com)
-
     ''')
 
     # Fun interative element
@@ -204,11 +202,11 @@ elif page == '📩 Contact':
     status = st.selectbox(
         "I'm currently:",
         [
-            '👩‍💻 Coding',
-            '📕 Studying',
-            '☕ On a coffee break',
+            '📑 Planning Economic Domination',
+            '📕 Studying Marketing Trends',
+            '✈️ Traveling Always',
             '🎮 Gaming',
-            '😴 Sleeping'
+            '😴 Trying to sleep'
         ]
     )
 
@@ -218,7 +216,7 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        f'<center>Made using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
         unsafe_allow_html = True
     )
     
