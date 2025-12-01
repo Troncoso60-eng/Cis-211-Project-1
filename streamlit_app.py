@@ -188,11 +188,11 @@ elif page == '📩 Contact':
     st.subheader('Send me a message.')
 
     st.write('''
-        📧 **Email:** LightingGuy23@Gmail.com
+        📧 **Email:** nicolastroncoso@Gmail.com
 
-        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+        🏢 **LinkedIn:** [linkedin.com/in/nicolastroncoso](https://linkedin.com)
 
-        👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+        👩‍💻 **Github:** [https://github.com/nicolastroncoso](https://github.com)
 
     ''')
 
