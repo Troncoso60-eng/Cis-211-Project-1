@@ -55,7 +55,7 @@ if page == '🏠 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('')
+    st.image('Unknown-9')
 
 # About Page
 elif page == '🧐 About':
@@ -216,7 +216,7 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        f'<center>Made using Streamlit | © {datetime.now().year} Nicolas Troncoso </center>',
         unsafe_allow_html = True
     )
     
