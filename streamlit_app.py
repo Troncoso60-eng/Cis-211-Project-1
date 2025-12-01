@@ -93,7 +93,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.slrlounge.com%2Fmoody-traffic-lights-make-something-beautiful-nothing%2F&psig=AOvVaw0-UIoyfw4MuhyFpRmSO4lN&ust=1764653014198000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCLDT3LjTm5EDFQAAAAAdAAAAABAE')
+        st.image('')
     with col2:
         st.subheader('🔦 Thearical lighting Course 101')
         st.write('The basics of lighting from Tik Tok videos to the theater')
@@ -108,36 +108,36 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png', use_column_width = True)
+        st.image('', use_column_width = True)
 
     with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+        st.subheader('Basic lighting kit ')
+        st.write('from learning to practice, everything you need for your first lighting rig')
+        st.caption('**Technologies:** DMX, Lighting Key, Color theory')
 
 
   # Project 2 
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
+      st.image('', use_column_width = True)
     with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
-      st.caption('**Technologies:** Python, Pandas, Plotly')
+      st.subheader('🎨 Color Hue Graphic')
+      st.write('Interactive app for calculating and visualizing color hues')
+      st.caption('**Technologies:** DMX systems, Lightkey, lighting AI')
 
 elif page == '🛠 Skills':
-  st.title('Technical Skills')
+  st.title('Lighting Technical Skills')
 
   # Skills with progress bars
-  st.subheader('Programming Languages')
+  st.subheader('Visual Storytelling')
 
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
-    'Technical Writing' : 40
+    'Color Theroy' : 85,
+    'lighting intergration' : 70,
+    'Fixture Placement' : 63,
+    'Cue design' : 52,
+    'Training ' : 30
   }
 
   for skill, level in skills_data.items():
@@ -151,19 +151,19 @@ elif page == '🛠 Skills':
 
   col1, col2, col3 = st.columns(3)
   with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
+    st.success('My DMX Go')
+    st.info('Software')
+    st.warning('Easy user interface')
 
   with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
+    st.success('Lighting Key')
+    st.info('Software')
+    st.warning('DMX/lighting AI Tools')
     
   with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
+    st.success('led ellipsoidal light')
+    st.info('Hardware')
+    st.warning('High voltage')
 
 elif page == '📝 Resume':
   st.title('Resume')
@@ -188,7 +188,7 @@ elif page == '📩 Contact':
     st.subheader('Send me a message.')
 
     st.write('''
-        📧 **Email:** yourname@email.com
+        📧 **Email:** LightingGuy23@Gmail.com
 
         🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
 
