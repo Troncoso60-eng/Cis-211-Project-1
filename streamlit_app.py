@@ -93,7 +93,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('')
+        st.image('https://www.robertjuliat.com/imgs-news/2016/614SX_profiles_for_Netherlands_Royal_Theatre_02.jpg')
     with col2:
         st.subheader('🔦 Thearical lighting Course 101')
         st.write('The basics of lighting from Tik Tok videos to the theater')
