@@ -77,7 +77,7 @@ elif page == '🧐 About':
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'Gaming', 'Creative Design', 'Swimming', 'Travel', 'Thearical lighting techinican']
+  interests = ['Web Development', 'Gaming', 'Creative Design', 'Swimming', 'Travel', 'Thearical lighting']
 
   # Display the interests in columns
   cols = st.columns(3)
@@ -93,7 +93,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fbetopperdj.com%2Fblogs%2Fnews%2Ftypes-of-theater-lights-the-role-in-stage-lighting&psig=AOvVaw2GGyW3bC0_RjEkDQCIyCUq&ust=1762877474718000&source=images&cd=vfe&opi=89978449&ved=0CBkQjhxqFwoTCKDIzd3855ADFQAAAAAdAAAAABAK')
+        st.image('https://www.google.com/imgres?q=lighting&imgurl=https%3A%2F%2Fwww.slrlounge.com%2Fwp-content%2Fuploads%2F2014%2F01%2FLucas-zimmerman-traffic-lights-canon-5d-3.jpg&imgrefurl=https%3A%2F%2Fwww.slrlounge.com%2Fmoody-traffic-lights-make-something-beautiful-nothing%2F&docid=b3O1DM9Qmm-OQM&tbnid=Fiq4lpyHwdXy7M&vet=12ahUKEwiwj5vx0puRAxUHKVkFHfx0C7AQM3oECDUQAA..i&w=650&h=433&hcb=2&ved=2ahUKEwiwj5vx0puRAxUHKVkFHfx0C7AQM3oECDUQAA')
     with col2:
         st.subheader('🔦 Thearical lighting Course 101')
         st.write('The basics of lighting from Tik Tok videos to the theater')
