@@ -55,7 +55,7 @@ if page == '🏠 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image()
+    st.image('')
 
 # About Page
 elif page == '🧐 About':
